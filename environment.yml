@@ -1,0 +1,21 @@
+name: computer_vision_env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - opencv
+  - pip
+  - pip:
+      - mediapipe
+      - jax
+      - jaxlib
+      - torch
+      - torchvision
+      - torchaudio
+      - tqdm
+      - pillow
