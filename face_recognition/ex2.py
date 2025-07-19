@@ -4,9 +4,9 @@ import mediapipe as mp
 
 
 known_images = {
-    "Pradip": "pradip.jpg",
-    "Rohan": "rohan.jpg",
-    "Deep": "deep.jpg"
+    "Pradip": "person's_image/pradip.jpg",
+    "Rohan": "person's_image/rohan.jpg",
+    "Deep": "person's_image/deep.jpg"
 }
 
 known_encodings = []
